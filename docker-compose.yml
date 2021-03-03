@@ -10,10 +10,10 @@ services:
     ports:
       - 6080:6080
     volumes:
-      - appdata:/data/.SoulseekQt
-      - downloads:/data/Soulseek Downloads
-      - logs:/data/Soulseek Chat Logs
+      - /srv/1ba188a4-f62c-438a-b326-57cf088f1d87/soulseek/appdata:/data/.SoulseekQt
+      - /srv/1ba188a4-f62c-438a-b326-57cf088f1d87/soulseek/downloads:/data/Soulseek Downloads
+      - /srv/1ba188a4-f62c-438a-b326-57cf088f1d87/soulseek/logs:/data/Soulseek Chat Logs
 volumes:
-  appdata: /srv/1ba188a4-f62c-438a-b326-57cf088f1d87/soulseek/appdata
-  downloads: /srv/1ba188a4-f62c-438a-b326-57cf088f1d87/soulseek/downloads
-  logs: /srv/1ba188a4-f62c-438a-b326-57cf088f1d87/soulseek/logs
+  appdata: 
+  downloads: 
+  logs: 
